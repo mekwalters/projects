@@ -1,0 +1,166 @@
+* {
+  font-family: helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  max-width: 1260px;
+}
+
+.webpage {
+  max-width: 1260px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.header {
+  position:fixed;
+  box-sizing: border-box;
+  height: 69px;
+  width: 100%;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  padding-left: 10px;
+  padding-right: 20px;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  align-items: center;
+  z-index: 999;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 50px;
+}
+
+.header-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: flex-end;
+  align-items: center;
+  
+}
+
+.header-list li {
+  margin-left: 20px;
+}
+
+body {
+  margin: 0;
+  padding-top: 69px;
+}
+
+.content {
+  padding: 0 px;
+}
+
+.mission {
+  height: 700px;
+  width: 100%;
+  background-image: url(./resources/img-mission-background.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mission-text {
+  width: 100%;
+  padding: 0;
+}
+
+.monthly-tea {
+  height: auto;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.monthly-tea-text {
+  width: 1000px;
+  padding: 0;
+  margin-bottom: 10px;
+  justify-content: center;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.tea-images {
+  max-width: 1000px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.tea-images img {
+  max-height: 300px;
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  }
+
+.locations {
+  max-height: 500px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;  
+  background-image: url(resources/img-locations-background.jpg);
+  background-size: cover;
+  }
+
+.box-container h2{
+  /*display: inline-flex;
+  flex-wrap: wrap;*/
+  width: 1200px;
+  justify-content: center;
+ /* align-items: center; */
+  background-color: transparent;
+  margin-bottom: 15px;
+}
+
+.locations h3{
+  padding-top: 10px;
+  background-color: transparent;
+}
+
+.box-container {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  align-items: center;
+  width: 1200px;
+  height: 500px;
+  background-color: transparent;
+}
+
+
+.box {
+  width: 300px;
+  height: 250px;
+  margin: 0px 20px;
+  opacity: 1; 
+  background-color: black;
+  justify-content:center;
+  align-items: center;
+}
+
+.box-container p {
+  background-color: transparent;
+}
+.contact {
+  width: 1260px;
+  height: 200px;
+}
+
+footer h5 {
+ text-align: left;
+ margin: 20px;
+}

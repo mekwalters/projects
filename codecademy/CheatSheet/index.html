@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css" />
+  <title>Mike's HTML/CSS Cheatsheet</title>
+</head>
+<body>
+  <div class="header">
+    <header>
+      <h1>Mike's HTML & CSS Cheatsheet</h1>
+    </header>
+  </div>
+
+
+  <!-- How to Lay out a Page -->
+  <div>
+    <h2>Basic HTML Page Layout</h2>
+    <table>
+      <colgroup span="2"></colgroup>
+      <thead>
+        <tr>
+          <td>Tag/Syntax</td>
+          <td>Description</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>&lt;head&gt; &lt;/head&gt;</td> 
+          <td>Sets up part of site that contains meta-data, links to external style sheets, and the page title.</td>
+        </tr>
+        <tr>
+          <td>&lt;header&gt; &lt;/header&gt;</td>
+          <td>Creates an introductory section to coming content. Typically place for navigational aid.</td>
+        </tr>
+        <tr>
+          <td>&lt;body&gt; &lt;/body&gt;</td>
+          <td>Contins the main body elemnts of the webpage.</td>
+        </tr>
+          <td>&lt;footer&gt; &lt;/footer&gt;</td>
+          <td>Area at bottom of the webpage. Good place for placing author, copyright and contact info.
+        </tr>
+      </tbody>
+    </table>
+  </div>
+   
+  <!--Table of HTML Commands-->
+  <div>
+    <h2>HTML Commands</h2>
+  <table>
+    <colgroup span="2"></colgroup>
+    <thead>
+      <tr>
+        <td>Tag/Syntax Example</td>
+        <td>Description</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>&lth1&gt Header &lt/h1&gt</td>
+        <td>Establishes a heading. Can be h1 through h6.</td>
+      </tr>
+      <tr>
+        <td>&lt;p&gt; text &lt/p&gt</td>
+        <td>Establishes a paragraph. There is an automatic line break after the closing tag.</td>
+      </tr>
+      <tr>
+        <td>&lt;br&gt;</td>
+        <td>Creates a line break. This is a self-closing tag.</td>
+      </tr>
+      <tr>
+        <td>&lt;img -link to image- &gt;</td>
+        <td>Displays an imagee on the webpage.</td>
+      </tr>
+      <tr>
+        <td>&lt;form&gt;  &lt;/form&gt</td>
+        <td>Sets up interface to collect and submit user supplied information.</td>
+      </tr>
+      <tr>
+        <td>&lt;input type='text' name='username' /&gt;</td>
+        <td>Creates an interactive element allowing user to make input. Can use 'radio', 'checkbox', 'text' for example. Y0u must include a "type= "and a "name= ". It has no closing tag.</td>
+      </tr>
+      <tr>
+        <td>&lt;em&gt;&lt;/em&gt</td>
+        <td>Emphasizes text, browsers usually render as italics.</td>
+      </tr>
+      <tr>
+        <td>&lt;ol&gt;&lt;/ol&gt</td>
+        <td>Creates an orderd list. List items will be numbered.</td>
+      </tr>
+      <tr>
+        <td>&lt;ul&gt;&lt;/ul&gt;</td>
+        <td>Creates an unordered list. Items will have bullets. </td>
+      </tr>
+      <tr>
+        <td>&lt;li&gt;element&lt;/li&gt;</td>
+        <td>The line tag is used to add items to a list. It is used in both ordered and unorderd lists.</td>
+      </tr>
+      <tr>
+        <td>&lt;span attributes= element&gt;&lt;span&gt;</td>
+        <td>This is used to group text or elements together for styling purposes.</td>
+      </tr>
+      <tr>
+        <td>&lt;a&gt;href="url"&gt;'text desciption of link'&lt;/a&gt;</td>
+        <td>This is the <a href= https://www.codecademy.com/resources/docs/html/elements/a>'anchor'</a> element that creates either an internal or external link.</td>
+      </tr>
+      <!--Below is formula for tag section-->
+      <!--&lt;tag&gt;element&lt;/tag&gt;;-->
+    </tbody>
+  </Table>
+  </div>
+
+  <!--CSS Rules Section-->
+  <div>
+    <h2><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/Getting_started">Common CSS Rules</a></h2>
+    <h3><a href=https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity>Specifity: ID - Class - Type</a></h3>
+    <table>
+      <colgroup span="2"></colgroup>
+          <thead>
+        <tr>
+          <td>Property Name: Value</td>
+          <td>Affect</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>font-family: Monoscape, "Times New Roman, serif;</td>
+          <td>This will change the targeted font. It will attempt the fonts in order. Multiple fonts are listed in case the browser doesn't support the selected font.</td>
+        </tr>
+        <tr>
+          <td>font-size: 30px;</td>
+          <td>Changes the targed item's font to whatver value is after the colon.In this case 30px.</td>
+        </tr>
+        <tr>
+          <td> color:red; </td>
+          <td>Changes the font color to red.</td>
+        <tr>
+          <td>background-color: blue</td>
+          <td>Makes the background of the selected area the color selected.</td>
+        </tr>
+        <tr>
+          <td>font-weight: bold</td>
+          <td>Sets how bold the text is. It can be light, normal, bold, etc. Or, it can be a number between 100-900 for extra control.</td>
+        </tr>
+        <tr>
+          <td>text-transform: value</td>
+          <td>Transforms the font to the given value. Values are none, uppercase, lowercase, capitalize, full-width.</td>
+        </tr>
+        <tr>
+          <td>text-shadow: value</td>
+          <td>Applies up to 4 proterties to the font: horizontal offsets, vertical offset, blur radius, base color. You can create multiple shadows by seperating another set of values by a comma.</td>
+        </tr>
+        <tr>
+          <td>text-align:</td>
+          <td>Allows you to justify the text left, right, center, or justify.</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Important!</td>
+          <td>You must be sure to link the HTML and CSS file!! The syntax is: &lt;link rel="stylesheet" href="styles.css"/&gt; It goes in your head section.</td>
+        </tr>
+        <tr>
+          <td>Don't forget:</td>
+          <td>You can stack both selectors and rules in the same command.</td>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+
+  <div class="footer"></div>
+    <footer>
+      <p><span class="creator">Created by: Mike Walters</span><span class="email"> <a href="mailto:mekwalters@gmail.com">Email: mekwalters@gmail.com</a></span><br>2023</p>
+    </footer>
+  </div>
+</body>
+</html>

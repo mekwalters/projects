@@ -1,0 +1,166 @@
+
+
+*{
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  top: 0;
+  height: 150px;
+  margin-top: 0;
+  width: 100%;
+  margin-bottom: 20px;
+  border-top: 3px solid black;
+  border-right: 2px solid black;
+  border-bottom: 20px double black;
+  border-left: 2px solid black;
+  position:fixed;
+  z-index: 9999;
+  
+  /*background-color: hsla(210, 50, 50, 0.64);*/
+  background-color: rgb(63, 127, 191);
+}
+.header h1 {
+  text-align: center;
+}
+
+.header-list {
+  color: white;
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-list li {
+  margin-right: 20px;
+  font-style:italic;
+  font-weight: 700;
+  color: white;
+}
+
+.content {
+  top: 150px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color:goldenrod;
+}
+
+h2 {
+  text-align:center;
+  font-size :30px;
+}
+
+.container {
+  border: 2px solid black;
+  padding: 10px;
+  margin: 10px auto;
+  top: 150px;  
+}
+
+.color-panel {
+  display:inline-block;
+  width: 32%;
+  text-align: center;
+  margin: 20px auto;
+  min-height: 100px;
+}
+
+.slate-blue {
+  background-color: rgba(63, 127, 191, 0.30);
+}
+
+.seafoam {
+  background-color: rgba(85, 191, 63,0.34);
+}
+
+.dessert-sand {
+  background-color: rgba(191, 140, 63,0.34);
+}
+.steel {
+  background-color: rgba(77, 68, 55, 0.34);
+}
+
+/*.font-container {
+  display: inline-block;
+  width: 40%;
+  border: 2px solid black;
+  padding: 3%;
+  margin: 20px 10px;
+}*/
+
+.font-panel {
+  width: 40%;
+  display: inline-block;
+  border: 1px solid black;
+  margin: 10px 10px;
+  padding: 3%;
+}
+
+.font-label {
+  text-decoration: underline;
+}
+
+.font-label .poppins {
+  font-family: poppins;
+}
+
+.font-label .rajdhani {
+  font-family:rajdhani;
+}
+
+.font-label .urbanist {
+  font-family: urbanist;
+}
+
+.font-label .indieflower {
+  font-family: "Indie Flower";
+}
+
+.regular {
+  font-style: normal;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/*.poppins .italics {
+  font-style:italic;
+  font-weight: 600;
+}
+
+.poppins .bold {
+  font-weight: bold;
+}*/
+
+.font-container .Rajdhani {
+  font-family: rajdhani, serif;
+}
+
+.italics {
+  font-style:italic;
+  font-weight: 600;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.font-container .urbanist {
+  font-family: 'urbanist', serif;
+}
+
+.font-container .indieflower {
+  font-family: 'indie flower', cursive;
+}
