@@ -4,6 +4,31 @@
   font-family: "Poppins", sans-serif;
 }
 
+h1 {
+  font-family: Ubuntu, sans-serif;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Roboto Slab';
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+}
+p {
+  font-family: poppins;
+}
+
+li {
+  list-style-type: none;
+}
+
 .header {
   top: 0;
   height: 150px;
@@ -16,8 +41,6 @@
   border-left: 2px solid black;
   position:fixed;
   z-index: 9999;
-  
-  /*background-color: hsla(210, 50, 50, 0.64);*/
   background-color: rgb(63, 127, 191);
 }
 .header h1 {
@@ -37,10 +60,11 @@
   font-style:italic;
   font-weight: 700;
   color: white;
+  font-family: Ubuntu, sans-serif;
 }
 
 .content {
-  top: 150px;
+  padding-top: 170px;
 }
 
 a {
@@ -60,8 +84,7 @@ h2 {
 .container {
   border: 2px solid black;
   padding: 10px;
-  margin: 10px auto;
-  top: 150px;  
+  margin: 10px auto;  
 }
 
 .color-panel {
@@ -107,20 +130,32 @@ h2 {
   text-decoration: underline;
 }
 
-.font-label .poppins {
+.poppins {
   font-family: poppins;
 }
 
-.font-label .rajdhani {
-  font-family:rajdhani;
+.rajdhani {
+  font-family:Rajdhani;
 }
 
-.font-label .urbanist {
-  font-family: urbanist;
+.urbanist {
+  font-family: Urbanist;
 }
 
-.font-label .indieflower {
+.indieflower {
   font-family: "Indie Flower";
+}
+
+.playfair {
+  font-family: 'Playfair Display', serif;
+}
+
+.robotoslab {
+  font-family: 'Roboto Slab', serif;
+}
+
+.Ubuntu {
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .regular {
@@ -135,32 +170,6 @@ h2 {
   font-weight: bold;
 }
 
-/*.poppins .italics {
-  font-style:italic;
-  font-weight: 600;
-}
-
-.poppins .bold {
-  font-weight: bold;
-}*/
-
-.font-container .Rajdhani {
-  font-family: rajdhani, serif;
-}
-
-.italics {
-  font-style:italic;
-  font-weight: 600;
-}
-
-.bold {
-  font-weight: bold;
-}
-
-.font-container .urbanist {
-  font-family: 'urbanist', serif;
-}
-
-.font-container .indieflower {
-  font-family: 'indie flower', cursive;
+.text-style-h2 {
+  text-align:left;
 }

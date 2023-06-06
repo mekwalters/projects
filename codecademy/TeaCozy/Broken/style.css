@@ -8,8 +8,6 @@
   max-width: 1260px;
 }
 
-
-
 .header {
   position:fixed;
   box-sizing: border-box;
@@ -56,33 +54,62 @@ body {
 
 .mission {
   height: 700px;
-  width: 1200px;
+  width: 100%;
   background-image: url(./resources/img-mission-background.jpg);
-  
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
 }
 
 .mission-text {
   width: 100%;
   padding: 0;
 }
+/*
+.container-monthly-tea {
+  max-width: 500px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}  */
 
+/*
+.container-monthly-tea {
+  display: inline-flex;
+  wrap: wrap;
+  width: 1000px;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto; 
+}  */
 
-/* Try 2 - noticed i had reversed height and width of images */
+.tea-images {
+  max-width: 300px;
+  max-height: 200px;
+  margin: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+/*
+@media (max-width:1000px) .tea-images {
+  width:100% */
 
 .monthly-tea {
   height: auto;
+  max-width: 1000px;
   margin: 0 auto;
-  display: flex;
+  display: inline-flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
 .monthly-tea-text {
-  width: 100%;
+  width: 1000px;
   padding: 0;
   margin-bottom: 10px;
   justify-content: center;
@@ -90,28 +117,25 @@ body {
   margin-right:auto;
 }
 
+.tea-images {
+  max-width: 1000px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
 .tea-images img {
-  max-height: 200px;
-  max-width: 300px;
-  align-items: center;
-  justify-content: center;
-  margin: 10px 0px;
-  flex: 300px;
- }
-
- .tea-images {
-  display: flex;
-  flex-wrap: wrap;
+  max-height: 300px;
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
   justify-content: center;
   align-items: center;
- }
-
- /* 1st attempt locations; flex not working as expected */
-
+  } */
 
 .locations {
-  height: 500px;
-  width: 1200px;
+  max-height: 500px;
+  max-width: 1200px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;  
@@ -119,12 +143,15 @@ body {
   background-size: cover;
   }
 
-.locations h2{
-  color: black;
-  margin: 0 auto;
-  width: 100%;
+.box-container h2{
+  /*display: inline-flex;
+  flex-wrap: wrap;*/
+  width: 1200px;
+  justify-content: center;
+ /* align-items: center; */
   background-color: transparent;
-  }
+  margin-bottom: 15px;
+}
 
 .locations h3{
   padding-top: 10px;
@@ -132,7 +159,7 @@ body {
 }
 
 .box-container {
-  display: flex;
+  display: inline-flex;
   flex-wrap: wrap;
   justify-content:center;
   align-items: center;
@@ -150,14 +177,11 @@ body {
   background-color: black;
   justify-content:center;
   align-items: center;
-  flex: 300px;
 }
 
 .box-container p {
   background-color: transparent;
 }
-
-
 .contact {
   width: 1260px;
   height: 200px;
